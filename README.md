@@ -1,7 +1,7 @@
 # Final_Project
 
 ## Project Description
----
+
 This is where my paragraph describing the project belongs  
 
 ## Installation
@@ -49,3 +49,4 @@ Do not add to this section
 ---
 Short paragraph about you (each person in a group project)
 How to contact you if you want that available  
+
