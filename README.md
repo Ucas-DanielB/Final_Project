@@ -1,3 +1,4 @@
+
 # Personal Student Study Planner
 
 ## Project Description
@@ -18,8 +19,6 @@ Short Paragraph here maybe a bulletted list
 + list item two
 + list item three
 
-![image](relative link to your image of the project working NOTE: image must be saved in the repository)  
-
 ## Used Technologies
 ---
 + Name of tech - what it does in the project
@@ -27,6 +26,11 @@ Short Paragraph here maybe a bulletted list
 + Name of tech - what it does in the project
 `pip install instructions`
 + Name of tech - what it does in the project
++ name of the tech - what it does in the project
+`pip install instructions`
++ name of the tech - what it does in the project
+`pip install instructions`
++ name of the tech - what it does in the project
 `pip install instructions`  
 
 ## Current Features
@@ -35,13 +39,20 @@ Short Paragraph here maybe a bulletted list
 + List of cool things your project does
 + List of cool things your project does  
 
+
 ## Contributors
 ---
 + Aiden Challenger, Summarized the different info and was the UI/UX Designer. 
 + Ethan Blanco, Created and organized the csv files, handled user requests for making subjects/homework and marking it down. Was the senior programmer. 
 + Daniel Blanco, Created the time and study logs, was the team leader and content area expert. 
 
-## Author's info
+## Contributors
+---
++ List of people who helped and what they did
++ List of people who helped and what they did
++ List of people who helped and what they did  
+
+## Author's Info
 ---
 Short paragraph about you (each person in a group project)
 How to contact you if you want that available  
