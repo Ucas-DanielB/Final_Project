@@ -22,7 +22,7 @@ Short Paragraph here maybe a bulletted list
 ## Used Technologies
 ---
 + Pygame- It assists the time logs, by producing the study session windo and times.
-`pip install pygame` Update pygame, can update by inputting yes when requested. 
+`pip install pygame` ,Update pygame, can update by inputting yes when requested. 
 + Name of tech - what it does in the project
 `pip install instructions`
 + name of the tech - what it does in the project
