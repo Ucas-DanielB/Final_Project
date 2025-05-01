@@ -21,14 +21,9 @@ Short Paragraph here maybe a bulletted list
 
 ## Used Technologies
 ---
++ Pygame- It assists the time logs, by producing the study session windo and times.
+`pip install pygame` Update pygame, can update by inputting yes when requested. 
 + Name of tech - what it does in the project
-`pip install instructions`
-+ Name of tech - what it does in the project
-`pip install instructions`
-+ Name of tech - what it does in the project
-+ name of the tech - what it does in the project
-`pip install instructions`
-+ name of the tech - what it does in the project
 `pip install instructions`
 + name of the tech - what it does in the project
 `pip install instructions`  
@@ -37,20 +32,13 @@ Short Paragraph here maybe a bulletted list
 ---
 + List of cool things your project does
 + List of cool things your project does
-+ List of cool things your project does  
-
++ List of cool things your project does
 
 ## Contributors
 ---
 + Aiden Challenger, Summarized the different info and was the UI/UX Designer. 
 + Ethan Blanco, Created and organized the csv files, handled user requests for making subjects/homework and marking it down. Was the senior programmer. 
 + Daniel Blanco, Created the time and study logs, was the team leader and content area expert. 
-
-## Contributors
----
-+ List of people who helped and what they did
-+ List of people who helped and what they did
-+ List of people who helped and what they did  
 
 ## Author's Info
 ---
