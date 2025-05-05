@@ -30,11 +30,12 @@ def managing_tasks():
             elif main_tasks == 3:
                 pass
             elif main_tasks == 4:
-                pass
+                print("Okay, see you later!")
+                return
             elif main_tasks == 5:
                 print("Okay, goodbye!")
                 break
-        except:
+        except ValueError:
             print("This doesn't work for whatever reason! Try using a correct response.")
 
 
