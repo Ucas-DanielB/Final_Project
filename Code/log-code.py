@@ -22,7 +22,7 @@ def initialize_csv():
             writer = csv.writer(file)
             writer.writerow(["Subject", "Start Time", "End Time", "Duration (seconds)"])
 
-# Class to handle a study session (Bonus points for OOP)
+# Class to handle a study session
 class StudySession:
     def __init__(self, subject):
         self.subject = subject
