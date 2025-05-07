@@ -17,15 +17,14 @@ import csv
 #Define file path
 folder = "tasks"
 file_name = "tasks.csv"
-file_path = csv.path.join(folder, file_name)
-
-#Ensure the folder and file exist
-if not csv.path.exists(folder):
-    csv.makedirs(folder)
-
-if not csv.path.exists(file_path):
-    with open(file_path, "w") as f:
-        pass  #Create an empty file
+file_path = "code_tasks/tasks.csv"
+try:
+    with open(file_path, mode='r') as file:
+        csv_reader = csv.reader(file)
+        for row in csv_reader:
+            print(row)
+except FileNotFoundError:
+    print(f"File not found: {file_path}")
 
     
 def load_tasks():
