@@ -143,7 +143,7 @@ def main_managing_tasks(): #Main user interface.
 ####
 ####
 ####
-#Remember to callback all functions and stuff :)
+####
 ####
 ####
 ####
