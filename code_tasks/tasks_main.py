@@ -79,7 +79,7 @@ def delete_task():
         print("\nNo tasks to delete!\n")
         return
     
-    view_task()#
+    view_task()
     try:
         task_num = int(input("Enter the number of the task to delete: ")) - 1
         if 0 <= task_num < len(tasks):
