@@ -104,7 +104,7 @@ def view_task():
             print(f"{i}. {task}")
     print()
 
-def main_managing_tasks():
+def main_managing_tasks(): #Main user interface.
 
     while True:
         try:    
@@ -133,7 +133,7 @@ def main_managing_tasks():
             elif main_tasks == 6:
                 print("Okay, goodbye!")
                 break
-        except ValueError:
+        except ValueError: #Error management.
             print("This doesn't work for whatever reason! Try using a correct response.")
 
 
