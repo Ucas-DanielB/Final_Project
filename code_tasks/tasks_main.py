@@ -57,7 +57,7 @@ def mark_down():
         print("\nNo tasks to mark as complete!\n")
         return
     
-    view_task()
+    view_task() #Lets the user review all current and available Tasks in the CSV file.
     try:
         task_num = int(input("Enter the number of the task to mark complete: ")) - 1
         if 0 <= task_num < len(tasks):
