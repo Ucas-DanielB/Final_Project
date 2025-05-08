@@ -7,16 +7,16 @@ This personal student study planner helps anyone manage their subjects and homew
 
 ## Installation
 ---
-1. instruction one
-2. instruction two
-3. instruction three  
+1. Open the folder, clone the repository, or download the code.
+2. Ensure you have installed extensions such as python and code runner.
+3. Ensure all files and folders from the branches are present, if not, please contact the team leader with the info below.
 
 ## Execution and Usage
 ---
 Short Paragraph here maybe a bulletted list
 
-+ list item one
-+ list item two
++ Run the main file
++ Select the option to create subjects,
 + list item three
 
 ## Used Technologies
@@ -39,16 +39,19 @@ Short Paragraph here maybe a bulletted list
 ## Contributors
 ---
 + Aiden Challenger, Summarized the different info and was the UI/UX Designer. 
-+ Ethan Blanco, Created and organized the csv files, handled user requests for making subjects/homework and marking it down. Was the senior programmer. 
++ Ethan Blanco, Created and organized the csv files, handled user requests for making homework and marking it down. Was the senior programmer. 
 + Daniel Blanco, Created the time and study logs, was the team leader and content area expert. 
 
 ## Author's Info
 ---
-1. Daniel Blanco: 
+1. Daniel Blanco:
+   A student at UCAS with nearly a school year of experience in programming. A sophomore in high school, 16 years old and currently lives in the United States of America, Utah Lindon. Daniel chose the main idea of this final project, and took up the role of team lead. Originally thought it would be helpful to create a useful program that cold actually contribute towards students that want to be organized in school.
+   + daniel.blanco@ucas-edu.net.
+2. Aiden Challenger:
+   
    +
-2. Aiden Challenger: 
-   +
-3. Ethan Blanco: 
+3. Ethan Blanco:
+   
    +
 
 Short paragraph about you (each person in a group project)
