@@ -13,7 +13,7 @@ subjects = {
 }
 
 # CSV file name
-csv_file = "study_sessions.csv"
+csv_file = "tasks.csv"
 
 # Ensure the CSV file exists with headers
 def initialize_csv():
