@@ -133,6 +133,9 @@ def main_managing_tasks(): #Main user interface.
             elif main_tasks == 6:
                 print("Okay, goodbye!")
                 break
+            else:
+                print("This isn't available, maybe try something else?")
+                continue
         except ValueError: #Error management.
             print("This doesn't work for whatever reason! Try using a correct response.")
 
