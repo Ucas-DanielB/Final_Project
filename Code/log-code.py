@@ -54,7 +54,7 @@ def create_study_session():
 
     subject = input("Enter the subject you are studying: ").strip()
     if subject not in subjects:
-        print("Subject not found. Adding it to the list.")
+        print("Adding it to the list.")
         subjects[subject] = {}
 
     session = StudySession(subject)
@@ -116,7 +116,7 @@ def session_menu():
             else:
                 print("Session discarded.")
 
-            back_to_menu = input("This is it. Nothing else to do. Would you like to return to the main menu? (yes/no): ").lower()
+            back_to_menu = input("Would you like to return to the main menu? (yes/no): ").lower()
             if back_to_menu == 'yes':
                 break
         elif create_new == 'no':
