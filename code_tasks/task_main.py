@@ -115,7 +115,7 @@ def main_managing_tasks(): #Main user interface.
                            4. View all Tasks.
                            5. Return back.
                            6. Exit program.\n"""))
-            if main_tasks == 1:
+            if main_tasks == 1: #Callback functions.
                 print("Welcome! What would you like to Add?")
                 add_task()
             elif main_tasks == 2:
