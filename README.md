@@ -24,11 +24,11 @@ Short Paragraph here maybe a bulletted list
 + Pygame- It assists the time logs, by producing the study session window and times.
 `pip install pygame` ,Update pygame, can update by inputting yes when requested.
  
-+ Name of tech - what it does in the project
++ Matplotlib - what it does in the project
 `pip install instructions`
 
-+ name of the tech - what it does in the project
-`pip install instructions`  
++ Matplotlib - It summaries data and is introduces a feature that allows the user to view the data in graphs and charts such as a pie graph, or a bar chart.
+`pip install matplotlib`, you can also update to get the latest version by inputting `python.exe -m pip install --upgrade pip`, this is printed so the user can easily copy and paste it into their terminal. 
 
 ## Current Features
 ---
@@ -51,8 +51,8 @@ Short Paragraph here maybe a bulletted list
    
    +
 3. Ethan Blanco:
-   
-   +
+   A student at UCAS with just about a year and half of experience in Python programming. A Sophomore in high school, 16 years old and currently lives in the United States of America, Utah Lindon. Ethan supports this Final Project by handling the CSV files as the Lead Programmer, this program was made to help track and monitor tasks or activities on a list.
+   +ethan.blanco@ucas-edu.net.
 
 Short paragraph about you (each person in a group project)
 How to contact you if you want that available  
