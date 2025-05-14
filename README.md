@@ -23,10 +23,8 @@ Short Paragraph here maybe a bulletted list
 ---
 + Pygame- It assists the time logs, by producing the study session window and times.
 `pip install pygame` ,Update pygame, can update by inputting yes when requested.
- 
-+ Matplotlib - what it does in the project
-`pip install instructions`
 
+ 
 + Matplotlib - It summaries data and is introduces a feature that allows the user to view the data in graphs and charts such as a pie graph, or a bar chart.
 `pip install matplotlib`, you can also update to get the latest version by inputting `python.exe -m pip install --upgrade pip`, this is printed so the user can easily copy and paste it into their terminal. 
 
@@ -46,14 +44,13 @@ Short Paragraph here maybe a bulletted list
 ---
 1. Daniel Blanco:
    A student at UCAS with nearly a school year of experience in programming. A sophomore in high school, 16 years old and currently lives in the United States of America, Utah Lindon. Daniel chose the main idea of this final project, and took up the role of team lead. Originally thought it would be helpful to create a useful program that cold actually contribute towards students that want to be organized in school.
-   + daniel.blanco@ucas-edu.net.
+   + daniel.blanco@ucas-edu.net
+
 2. Aiden Challenger:
-   
-   +
+   A student at UCAS with a year and a semester school year of experience in programming. A sophomore in high school, 16 years old and currently ives in the United States of America, Utah Lindon. Aiden took up the role for UI/UX designer, and also chose to make the different charts for this project. His main part in this program was making the actual project user friendly and testing everything with the team leader before implementation.
+   + aiden.challenger@ucas-edu.net
+
 3. Ethan Blanco:
    A student at UCAS with just about a year and half of experience in Python programming. A Sophomore in high school, 16 years old and currently lives in the United States of America, Utah Lindon. Ethan supports this Final Project by handling the CSV files as the Lead Programmer, this program was made to help track and monitor tasks or activities on a list.
-   +ethan.blanco@ucas-edu.net.
-
-Short paragraph about you (each person in a group project)
-How to contact you if you want that available  
+   +ethan.blanco@ucas-edu.net
 
