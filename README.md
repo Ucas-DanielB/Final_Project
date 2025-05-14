@@ -52,5 +52,5 @@ Short Paragraph here maybe a bulletted list
 
 3. Ethan Blanco:
    A student at UCAS with just about a year and half of experience in Python programming. A Sophomore in high school, 16 years old and currently lives in the United States of America, Utah Lindon. Ethan supports this Final Project by handling the CSV files as the Lead Programmer, this program was made to help track and monitor tasks or activities on a list.
-   +ethan.blanco@ucas-edu.net
+   + ethan.blanco@ucas-edu.net
 
