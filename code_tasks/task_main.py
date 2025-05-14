@@ -70,7 +70,7 @@ def mark_down():
         else:
             print("Wrong task number!\n")
     except ValueError:
-        print("This didn't work, please enter a number.\n")
+        print("This didn't work, please enter a valid number.\n")
 
 def delete_task():
     #Delete a task from the to-do list.
@@ -89,7 +89,7 @@ def delete_task():
         else:
             print("Invalid task number!\n")
     except ValueError:
-        print("Invalid input! Please enter a number.\n")
+        print("Invalid input! Please enter a valid number.\n")
 
 
 def view_task():
@@ -114,7 +114,7 @@ def main_managing_tasks(): #Main user interface.
                            3. Mark down Tasks.
                            4. View all Tasks.
                            5. Return back.
-                           6. Exit program.\n"""))
+                           6. Exit program.\nPlease enter the number corrosponding to your selection: """))
             if main_tasks == 1: #Callback functions.
                 print("Welcome! What would you like to Add?")
                 add_task()
@@ -139,7 +139,7 @@ def main_managing_tasks(): #Main user interface.
         except ValueError: #Error management.
             print("This doesn't work for whatever reason! Try using a correct response.")
 
-
+main_managing_tasks()
 ####
 ####
 ####
