@@ -127,7 +127,64 @@ def display_info():
         else:
             print("No pending work.")
 
+def summary_menu():
+    last_chart_data = None
 
+    while True:
+        print("\n--- Homework & Study Summary Menu ---")
+        print("1. Summarize Homework")
+        print("2. Summarize Study Sessions")
+        print("3. Display Class Info")
+        print("4. View Last Chart")
+        print("5. Exit")
+        choice = input("Select an option (1-5): ").strip()
+        #choice one which also takes inputs 
+        if choice == '1':
+            detailed = input("Show detailed list? (y/n): ").strip().lower() == 'y'
+
+            filter_class = input("Filter by class (press Enter to skip): ").strip()
+            filter_class = filter_class if filter_class else None
+            
+            filter_completed = input("Filter by completed? (yes/no/skip): ").strip().lower()
+            if filter_completed == 'yes':
+                filter_completed = True
+            elif filter_completed == 'no':
+                filter_completed = False
+            else:
+                filter_completed = None
+
+            due_before = input("Filter by due date before (YYYY-MM-DD or skip): ").strip() #Inistailly issue when testing 
+            due_before = due_before if due_before else None
+
+            try:
+                min_points = input("Minimum points (or skip): ").strip()
+                min_points = int(min_points) if min_points else None
+            except ValueError:
+                min_points = None
+
+            last_chart_data = summarize_homework(
+                detailed=detailed,
+                filter_class=filter_class,
+                filter_completed=filter_completed,
+                due_before=due_before,
+                min_points=min_points
+            )
+
+        elif choice == '2':
+            summarize_study_sessions()
+
+        elif choice == '3':
+            display_class_info()
+
+        elif choice == '4':
+            show_last_chart(last_chart_data)
+
+        elif choice == '5':
+            print("Exiting. Goodbye!")
+            break
+
+        else:
+            print("Please enter a number from 1 to 5.")
 #code should be working but some changes may need to be made depending on others code
 
 
