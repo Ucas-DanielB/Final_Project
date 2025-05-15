@@ -138,7 +138,7 @@ def summary_menu():
         print("4. View Last Chart")
         print("5. Exit")
         choice = input("Select an option (1-5): ").strip()
-        #choice one which also takes inputs 
+        #choice one which also takes inputs for the filter info 
         if choice == '1':
             detailed = input("Show detailed list? (y/n): ").strip().lower() == 'y'
 
@@ -180,7 +180,6 @@ def summary_menu():
             show_last_chart(last_chart_data)
 
         elif choice == '5':
-            print("Exiting. Goodbye!")
             break
 
         else:
