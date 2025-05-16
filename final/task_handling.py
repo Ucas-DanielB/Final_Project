@@ -15,7 +15,7 @@ import csv
 
 #Define file path
 
-file_path = "tasks.csv" #change the thing to match folder 
+file_path = "final/task.csv" #change the thing to match folder 
 try:
     with open(file_path, mode='r') as file:
         csv_reader = csv.reader(file)
@@ -133,10 +133,3 @@ def main_managing_tasks(): #Main user interface.
                 continue
         except ValueError: #Error management.
             print("This doesn't work for whatever reason! Try using a correct response.")
-
-if __name__ == "__main__":
-    delete_task()
-    main_managing_tasks()
-    view_task()
-    add_task()
-    load_tasks()
