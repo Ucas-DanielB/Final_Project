@@ -34,7 +34,6 @@ def show_last_chart(chart_data):
 
 # homework filtering based on user inputs 
 def summarize_homework(
-    detailed=False,
     sort_by='class',
     secondary_sort='points',
     filter_class=None,
@@ -76,10 +75,7 @@ def summarize_homework(
         )
 
     print("\nFiltered Homework List:")
-    if detailed:
-        print(df.to_string(index=False))
-    else:
-        print(df[['name', 'class', 'points', 'complete']].to_string(index=False))
+    print(df.to_string(index=False))
 
     return chart_data
 
@@ -140,8 +136,6 @@ def summary_menu():
         choice = input("Select an option (1-5): ").strip()
         #choice one which also takes inputs for the filter info 
         if choice == '1':
-            detailed = input("Show detailed list? (y/n): ").strip().lower() == 'y'
-
             filter_class = input("Filter by class (press Enter to skip): ").strip()
             filter_class = filter_class if filter_class else None
             
@@ -163,9 +157,8 @@ def summary_menu():
                 min_points = None
 
             last_chart_data = summarize_homework(
-                detailed=detailed,
                 filter_class=filter_class,
-                filter_completed=filter_completed,
+                filter_complete=filter_completed,
                 due_before=due_before,
                 min_points=min_points
             )
